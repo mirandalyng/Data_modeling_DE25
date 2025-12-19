@@ -14,7 +14,8 @@ Repositary for Data Modeling course
 └── code_along_videos
 ```
 
-# Skills
+## Tools
 
-- [Lucidchart](https://www.lucidchart.com)
-- [Kaggle](https://www.kaggle.com)
+[![Lucidchart](https://img.shields.io/badge/Lucidchart-Diagrams-orange?logo=lucidchart&logoColor=white)](https://www.lucidchart.com)
+[![Kaggle](https://img.shields.io/badge/Kaggle-Datasets-20BEFF?logo=kaggle&logoColor=white)](https://www.kaggle.com)
+[![SQL](https://img.shields.io/badge/SQL-Database-blue)](#)
