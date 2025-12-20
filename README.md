@@ -9,6 +9,11 @@ Repositary for Data Modeling course
 ```text
 .
 ├── Excercises
+│   └── Ex00
+│       ├── index.md
+│       └── pictures
+│           ├── Library_Bookly.png
+│           └── car_rental.png
 ├── README.md
 ├── code_along_lectures
 └── code_along_videos
