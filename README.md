@@ -19,7 +19,7 @@ Repositary for Data Modeling course
 └── code_along_videos
 ```
 
-## Tools
+## Tools and Data
 
 [![Lucidchart](https://img.shields.io/badge/Lucidchart-Diagrams-orange?logo=lucidchart&logoColor=white)](https://www.lucidchart.com)
 [![Kaggle](https://img.shields.io/badge/Kaggle-Datasets-20BEFF?logo=kaggle&logoColor=white)](https://www.kaggle.com)
