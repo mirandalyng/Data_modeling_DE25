@@ -110,7 +110,7 @@ A university needs a system to manage students, courses, and professors.
 - course_id - PK for the course and unique value
 - teacher_id - FK from Teacher table and unique
 - course_name - the name of the course
-  -course_points - the points for the course (15hp, 30hp etc.)
+- course_points - the points for the course (15hp, 30hp etc.)
 
 **Professor** (teacher_id(PK), first_name, last_name, email)
 
@@ -121,14 +121,14 @@ A university needs a system to manage students, courses, and professors.
 
 ### C) Draw conceptual ERD with cardinalities
 
-<img src = "pictures/university.png" height=400 width=1000 >
+<img src = "pictures/university.png" height=400 width=500 >
 
 ### D) Define business rules (e.g. a student can enroll in max 4 courses)
 
 - The student can read maximum 45hp per semester
-  - required to add an attribute for _total_course_points_ for the Student
+- required to add an attribute for _total_course_points_ for the Student
 - all primary and FKs are Unique values
-- the email in Student and Professor must contain a @
+- the email in Student and Professor must contain an @
 
 ## 3. Onshop
 
@@ -144,22 +144,28 @@ A university needs a system to manage students, courses, and professors.
 - Customer **places** _one or many_ orders
 - Order **contains** _one and only one_ Customer
 
-**Order** (order_nr(PK), product_id(FK), )
+**Order** (order_nr(PK), product_id(FK))
 
 - Order **contains** _one or many_ Product
 - Product **belongs** to _one or many_ Orders
 
-**Product** (product_id(PK), )
+**Product** (product_id(PK), product_name, price, category_id(FK))
 
 - Product **belongs** to _one or many_ Orders
 - Category **contains** _one or many_ Products
 
-**Category** ()
+**Category** (category_id(PK), category_name)
 
 - Category **contains** _one or many_ Products
+- Product **contains** _one and only one_ Category
 
 ### B) Sketch the conceptual ERD.
 
-<img src = "pictures/onshop.png" height=100 width=1200 >
+<img src = "pictures/onshop.png" height=100 width=500 >
 
 ### C) Define business rules
+
+- the Customer email must contain an @
+- all of the Primary and Foreign Keys are unique
+- A product can just belong in one category
+- Order can contain more than one product_id (and products)
