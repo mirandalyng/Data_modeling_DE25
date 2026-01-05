@@ -1,0 +1,13 @@
+FROM python:3.13
+
+#the mkdir wants to be called app 
+WORKDIR /app
+
+#copy and past all in the file 
+COPY . . 
+
+#install all in the requirements.txt
+RUN pip install -r requirements.txt
+
+#run the python script 
+CMD ["python", "app.py"]

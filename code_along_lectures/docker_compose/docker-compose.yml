@@ -1,0 +1,7 @@
+services:
+  python-app:
+    #where do you want to fint the dockerfile
+    build: .
+    #under volumes - presistent data
+    volumes:
+      - .:/app
