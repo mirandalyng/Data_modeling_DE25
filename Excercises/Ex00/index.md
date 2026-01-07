@@ -8,9 +8,9 @@ FK = Foreign Key
 
 ### A) Intities and attributes
 
-**Book** (_ISB-number(PK), author_id(FK), title_)
+**Book** (_ISBN_nr(PK), author_id(FK), title_)
 
-**Member** (_membership_id(PK),ISB-number(FK) first_name, last_name_)
+**Member** (_member_id(PK),ISBN_nr(FK) first_name, last_name_)
 
 **Author** (_author_id(PK), first_name, last_name_)
 
